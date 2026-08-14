@@ -16,7 +16,7 @@ public class StepsTest {
     private static final String ISSUE = "Autotest_issue";
 
     @Test
-    public void TestLambdaStep() {
+    public void testLambdaStep() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
